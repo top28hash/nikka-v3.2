@@ -3,7 +3,7 @@ const {
   VERSION
 } = require(__dirname + "/config");
 const start = async () => {
-  Debug.info("Starting queen_Nikka v3\n by haki\n Nikka bots inc);
+  Debug.info("Starting queen_Nikka " + VERSION);
   try {
     await bot.init();
     await bot.DATABASE.sync();
